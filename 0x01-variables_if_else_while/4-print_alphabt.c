@@ -9,12 +9,12 @@ int main(void)
 {
 	char la'
 
-	for (la != 'e' && la != 'a')
+	for (la = 'a'; la <= 'z' la++)
 	}
-		if (la != 'e' && la != 'q')
+		if (la == 'e' || la == 'q')
+			continue
 			putchar(la);
 	}
 
 	putchar('\n');
-
 	return (0);
