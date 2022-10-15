@@ -2,18 +2,19 @@
 
 /**
  * main - prints the alphabet in lowercase
- * Return: 0
+ * followed by a new line, except q and e
+ * Return: Always 0
  */
 int main(void)
 {
-	char i;
+	char la;
 
-	for (i = 'a'; i <= 'z'; i++)
-	}
-		if (i == 'e' || i == 'q')
-			continue;
-			putchar(i);
+	for (la = 'a'; la <= 'z'; la++)
+	{
+		if (la != 'e' && la != 'q')
+			putchar(la);
 	}
 
 	putchar('\n');
+
 	return (0);
